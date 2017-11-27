@@ -1,0 +1,27 @@
+#root {
+    -fx-base: #31363b;
+    -fx-background: #31363b;
+    -fx-control-inner-background: derive(#31363b, -10%);
+    /*-fx-font-size: 1.15em;*/
+}
+
+#viewport {
+    -fx-background-color: white;
+}
+
+#viewport > * {
+    -fx-background-color: white;
+}
+
+.image {
+    -fx-border-color: black;
+    -fx-border-style: solid;
+    -fx-border-width: 1px;
+    -fx-border-insets: -1px;
+}
+
+.pixel {
+    -fx-stroke: black;
+    -fx-stroke-type: inside;
+    -fx-stroke-width: 1px;
+}
