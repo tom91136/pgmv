@@ -9,7 +9,8 @@ lazy val `pgmv` = (project in file(".")).
 			version := "0.1.0-SNAPSHOT"
 		)),
 		name := "pgmv",
-		mainClass in Compile := Some("coms20001.Main"),
+		mainClass in Compile := Some("net.kurobako.pgmv.Main"),
+		resolvers ++= Seq(Resolver.jcenterRepo),
 		libraryDependencies ++=
 		Seq(
 			"com.github.pathikrit" %% "better-files" % "3.2.0",
